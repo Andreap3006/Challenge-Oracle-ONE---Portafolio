@@ -1,0 +1,56 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer__rodapie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 0;
+}
+
+.footer__vector{
+    margin-right: 1rem;
+}
+
+.flecha__img{
+    color: #fff;
+    background-color: lightskyblue;
+    border-radius: 100%;
+    font-size: 2rem;
+    width: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
+#flecha{
+    position: fixed;
+    right: 2rem;
+    bottom: 1rem;
+}
+
+.footer__redes{
+    font-size: 1.2rem;
+}
+
+.icon-footer{
+    margin: 0 .5rem 0 1rem;
+}
+
+/*Tablet*/
+@media (max-width: 768px) {
+    .footer{
+        flex-direction: column;
+    }
+
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+    #flecha{
+        right: 12rem;
+        bottom: 2rem;
+    }
+}

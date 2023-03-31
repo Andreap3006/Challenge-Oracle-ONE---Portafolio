@@ -1,0 +1,66 @@
+.titulo__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+} 
+
+.titulo__network{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.titulo__network :hover{
+    font-size: 1.2rem;
+    transition: 0.1s;
+}
+
+.titulo__icon{
+    margin-left: .5rem;
+}
+
+.btn :hover{
+    font-size: 1.2rem;
+    transition: 0.1s;
+    border: 3px lightskyblue solid;
+    padding: .5rem .5rem;
+}
+
+.titulo__perfil{
+    width: 275px;
+    height: 290px;
+    border-radius: 100%;
+    margin-left: 2rem;
+}
+
+
+/*Tablet*/
+@media (max-width: 920px) {
+    .titulo__perfil{
+        width: 210px;
+        height: 220px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .titulo__div{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .titulo__perfil{
+        width: 150px;
+        height: 160px;
+        margin-bottom: 1rem;
+    }
+
+}
+/*Mobile*/
+@media (max-width: 425px) {
+   
+}

@@ -1,0 +1,22 @@
+.sobre{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #EAF2FD;
+}
+
+.sobre__container{
+    width: 60%;
+}
+
+/*Tablet*/
+@media (max-width: 920px) {
+    .sobre__container{
+        width: 100%;
+    }
+    
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+}

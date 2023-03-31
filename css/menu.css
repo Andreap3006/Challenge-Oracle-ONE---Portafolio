@@ -1,0 +1,56 @@
+.menu{
+    display: flex;
+    padding: 1rem 10% 1rem 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__encabezado{
+    display: flex;
+    width: 26%;
+    align-items: center;
+}
+
+.menu__vector{
+    height: 20px;
+    margin-right: 1rem;
+}
+
+.menu__lista{
+    display: flex;
+}
+
+.menu__lista__item{
+    margin-left: 20px;
+
+}
+
+.menu__lista__item :hover{
+    color: lightskyblue;
+    font-size: 1.2rem;
+    transition: 0.1s;
+    text-decoration: overline;
+}
+
+
+/*Tablet*/
+@media (max-width: 920px) {
+    .menu{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu__encabezado{
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .menu__lista{
+        flex-wrap: wrap;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+}

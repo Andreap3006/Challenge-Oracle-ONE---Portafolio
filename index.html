@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!-- Referencias de las hojas de estilo de Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/titulo.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/hobbies.css">
+    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/experiencia.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Roboto:ital,wght@1,500;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/58ed9529f3.js" crossorigin="anonymous"></script>
+    <title> Mi Portafolio</title>
+</head>
+<body>
+    <main class="general">
+        <!-- Sección del Menú  -->
+        <section class="menu" id="menu">
+                <header class="menu__encabezado">
+                    <img class="menu__vector" src="assets\vector.png">
+                    <h3 class="menu__titulo">Andrea Perugini</h3>
+                </header>
+                <nav>
+                    <ul class="menu__lista">
+                        <li class="menu__lista__item"><a href="#sobre-mi">Sobre mi</a></li>
+                        <li class="menu__lista__item"><a href="#skills">Skills</a></li>
+                        <li class="menu__lista__item"><a href="#hobbies">Hobbies</a></li>
+                        <li class="menu__lista__item"><a href="#formacion">Formación</a></li>
+                        <li class="menu__lista__item"><a href="#proyectos">Proyectos</a></li>
+                        <li class="menu__lista__item"><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+        </section>
+
+        <!-- Sección de Presentación -->
+        <section class="titulo base">
+            <div class="titulo__div">
+                <div class="titulo__container">
+                    <h2 class="titulo__bio">Hola, mi nombre es Andrea Perugini y soy Desarrolladora Web</h2>
+                    <h3 class="titulo__subseccion">Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                    <ul class="titulo__network">
+                        <li class="titulo__network__item"><a href="https://github.com/Andreap3006" target="_blank">Github<i class="fa-brands fa-github linkedin titulo__icon"></i></a></li>
+                        <li class="titulo__network__item"><a href="https://www.linkedin.com/in/andrea-perugini-ruiz/" target="_blank">Linkedin<i class="fa-brands fa-linkedin linkedin titulo__icon"></i></a></li>
+                        <li class="titulo__network__item btn"><a href="">Descarga mi cv</a></li>
+                    </ul>
+                </div>
+                <img class="titulo__perfil" src="assets/andrea foto cv.jpg">
+            </div>
+        </section>
+        
+        <!-- Sección sobre mi -->
+        <section class="sobre base" id="sobre-mi">
+            <div class="sobre__container">
+                <h2 class="sobre__titulo">Sobre mi</h2>
+                <p class="sobre__parrafo">Soy Venezolana, con residencia en Buenos Aires-Argenina. Inicie mi experiencia en el rubro IT como Tester de software, tengo habilidades en localización de errores, diseño y ejecución de casos de prueba. Aprender es parte de mi día a día, me gusta estar actualizada y seguir mejorando mis habilidades técnicas y de desarrollo personal.</p>
+                <p class="sobre__parrafo">Actualmente formo parte del programa Oracle Next Education, con una beca para estudiar una especialización en Desarrollo Front-End (JavaScript + framework React).</p>
+            </div>
+        </section>
+
+        <!-- Sección de Skills -->
+        <section class="skills base" id="skills">
+            <h2 class="skills__titulo">Skills</h2>
+                <div class="skills__line">
+                    <div class="box">
+                        <ul>
+                            <li class="skills__img"><img src="assets\htlm.png"></li>
+                            <li class="skills__name"> HTML 5</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <ul>
+                            <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                            <li class="skills__name">Javascript</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box">
+                        <ul>
+                            <li class="skills__img"> <img src="assets\css_icon.png" alt=""> </li>
+                            <li class="skills__name">CSS</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box">
+                        <ul>
+                            <li class="skills__img"><img src="assets\nodejs_icon.png" alt=""></li>
+                            <li class="skills__name">Node JS</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="box">
+                        <ul>
+                            <li class="skills__img"> <img src="assets\react_icon.png" alt=""> </li>
+                            <li class="skills__name">React</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Sección de Hobbies -->
+        <section class="hobbies base" id="hobbies">
+            <h2 class="hobbies__titulo">Hobbies</h2>
+                <div class="hobbies__line">
+                    <div class="box">
+                        <ul>
+                            <li class="hobbies__icon">&#128214;</li>
+                            <li class="hobbies__name">Leer</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <ul>
+                            <li class="hobbies__icon">&#127934;</li>
+                            <li class="hobbies__name">Jugar tenis</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <ul>
+                            <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
+                            <li class="hobbies__name">Oir música</li>
+                        </ul>
+                    </div>
+
+                    <div class="box">
+                        <ul>
+                            <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
+                            <li class="hobbies__name">Cocinar</li>
+                        </ul>
+                    </div>
+                </div>
+        </section>
+
+            <!-- Sección de Formación académica -->
+        <section class="academico base" id="formacion">
+            <h2 class="academico__titulo" >Formación Académica</h2>
+            <div class="academico__cursos">
+                <div class="academico__cursos__box">
+                    <ul class="academico__cursos__list">
+                        <li class="academico__cursos__item"><img class="academico__cursos__item__img2" src="https://img.genial.ly/62fd6ad8825ea30018321d40/70a99756-748b-4398-9062-400a580ec5a3.png"></li>
+                        <li class="academico__cursos__item__titulo"><h4>Formación en Análisis de datos</h4></li>
+                        <li class="academico__cursos__item__subtitulo"><p>2022 - Codo a codo</p></li>
+                    </ul>
+                </div>
+                <div class="academico__cursos__box">
+                    <ul class="academico__cursos__lista">
+                        <li class="academico__cursos__item"><img class="academico__cursos__item__img3" src="assets/logo-utn.ba.jpg"></li>
+                        <li class="academico__cursos__item__titulo"><h4>Desarrollo web inicial</h4></li>
+                        <li class="academico__cursos__item__subtitulo"><p>2022 - UTN.BA</p></li>
+                    </ul>
+                </div>
+                <div class="academico__cursos__box">
+                    <ul class="academico__cursos__lista">
+                        <li class="academico__cursos__item"><img class="academico__cursos__item__img" src="assets\alura_logo.png"></li>
+                        <li class="academico__cursos__item__titulo"><h4>Formación en Front-End + React</h4></li>
+                        <li class="academico__cursos__item__subtitulo"><p>En curso - Alura</p></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Experiencia Profesional/Proyectos Desarrollo-->
+        <section class="experiencia base" id="proyectos">
+            <h2 class="experiencia__seccion__titulo" >Experiencia Profesional</h2>
+            <div class="experiencia__box">
+                <img class="experiencia__img" src="assets/secretcode_print.png" alt="Encriptador">
+                <div class="experiencia__info-container info2"
+                    <h3 class="experiencia__titulo">Encriptador de texto</h3>
+                    <h3 class="experiencia__texto">Challenge Alura Codificador </h3>
+                        <div class="experiencia__descripcion">
+                                <span class="experiencia__repo"><a href="https://github.com/Andreap3006/Challenge-Encriptador-Desencriptador" target="_blank"><button class="experiencia__boton--repo btn__blanco">Repositorio</button></a></span>
+                                <span class="experiencia__demo"><a href="https://andreap3006.github.io/Challenge-Encriptador-Desencriptador/" target="_blank"><button class="experiencia__boton--demo btn__azul">Ver página</button></a></span>
+                        </div>
+                </div>
+            </div>  
+
+            <div class="experiencia__box n2">
+                <img class="experiencia__img" src="/assets/aluraGeek.png" alt="AluraGeek">
+                <div class="experiencia__info-container info1"
+                    <h2 class="experiencia__titulo">Página web e-commerce creada con HTML, CSS y JavaScript</h2>
+                    <h3 class="experiencia__texto">Challenge Alura Geek</h3>
+                        <div class="experiencia__descripcion">
+                                <span class="experiencia__repo"><a href="#" target="_blank"><button class="experiencia__boton--repo btn__blanco">Repositorio</button></a></span>
+                                <span class="experiencia__demo"><a href="#" target="_blank"><button class="experiencia__boton--demo btn__azul">Ver página</button></a></span>
+                        </div>
+                </div>
+            </div>
+
+            <div class="experiencia__box">
+                <img class="experiencia__img" src="assets/pag-JS.png" alt="pag-JS">
+                <div class="experiencia__info-container info2"
+                    <h3 class="experiencia__titulo">Página web creada con HTML, CSS y JavaScript</h3>
+                    <h3 class="experiencia__texto">Challenge UTN.BA</h3>
+                        <div class="experiencia__descripcion">
+                                <span class="experiencia__repo"><a href="https://github.com/Andreap3006/JavaScript" target="_blank"><button class="experiencia__boton--repo btn__blanco">Repositorio</button></a></span>
+                                <span class="experiencia__demo"><a href="https://andreap3006.github.io/JavaScript/" target="_blank"><button class="experiencia__boton--demo btn__azul">Ver página</button></a></span>
+                        </div>
+                </div>
+            </div>  
+
+            <div class="experiencia__box n2">
+                <img class="experiencia__img" src="assets/pag-bts.png" alt="pag-bts">
+                <div class="experiencia__info-container info1"
+                    <h2 class="experiencia__titulo">Página web creada con Bootstrap</h2>
+                    <h3 class="experiencia__texto">Challenge UTN.BA</h3>
+                        <div class="experiencia__descripcion">
+                                <span class="experiencia__repo"><a href="https://github.com/Andreap3006/Bootstrap" target="_blank"><button class="experiencia__boton--repo btn__blanco">Repositorio</button></a></span>
+                                <span class="experiencia__demo"><a href="https://andreap3006.github.io/Bootstrap/" target="_blank"><button class="experiencia__boton--demo btn__azul">Ver página</button></a></span>
+                        </div>
+                </div>
+            </div>  
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section class="formContacto base" id="contacto">
+            <div  class="formContacto__contacto">
+                <div class="formContacto_img"><img class="formContacto__img" src="https://static.vecteezy.com/system/resources/previews/017/551/527/non_2x/programmer-woman-programmer-workspace-working-on-internet-using-laptop-cartoon-character-illustration-vector.jpg" alt="">
+                </div>
+                <div class="formContacto__texto">
+                    <h2 class="formContacto__titulo">Contacto</h2>
+                    <h5 class="formContacto__subtexto">¿Quieres contactarme?</h5>
+                    <h5 class="formContacto__subtexto">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h5>
+                    <form class="formContacto__form" name="form">
+                        <input class="formContacto__input" type="text" name="nombre" placeholder="Nombre" required>
+                        <input class="formContacto__input" type="email" name="email" placeholder="E-mail" required>
+                        <input class="formContacto__input" type="text" name="asunto" placeholder="Assunto" required>
+                        <textarea class="formContacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <button type="submit" class="formContacto__boton">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Footer -->
+    <footer>
+        <section class="footer base">
+            <div class="footer__rodapie">
+                <img class="footer__vector" src="assets\vector.png">
+                <p>Desarrollado por Andrea Perugini&copy; 2023</p>
+                <a class="flecha" id="flecha" href="#menu">
+                    <p class="flecha__img">&#11014;</p>
+                </a>
+            </div>
+            <div class="footer__redes">
+                <a href="https://github.com/Andreap3006" target="_blank">
+                    <i class="fa-brands fa-github linkedin icon-footer"></i>Github</a>
+                <a href="https://www.linkedin.com/in/andrea-perugini-ruiz-542890209" target="_blank">
+                    <i class="fa-brands fa-linkedin linkedin icon-footer"></i>Linkedin</a>
+                <a href="mailto:andrea.p24868@gmail.com" target="_blank">
+                    <i class="fa-sharp fa-solid fa-envelope linkedin icon-footer"></i>Mail</a>
+            </div>
+        </section>
+    </footer>
+
+ <!-- Script del documento JavaScript -->
+<script src="validacion.js"></script>
+</body>
+</html>
